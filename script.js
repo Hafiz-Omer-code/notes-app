@@ -15,7 +15,7 @@ createBtn.addEventListener("click", () => {
     let img = document.createElement("img");
     inputBox.className = "input-box";
     inputBox.setAttribute("contenteditable", "true");
-    img.src = "/images/delete.png";
+    img.src = "images/delete.png";
     img.alt = "Delete Note";
     notesContainer.appendChild(inputBox).appendChild(img);
     updateStorage(); // Save the new note immediately
